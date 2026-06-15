@@ -13,7 +13,7 @@ plt.rcParams["axes.unicode_minus"] = False
 @st.cache_data  # 缓存数据，提升加载速度
 def get_data():
     # 读取Excel（和原代码同目录）
-    df = pd.read_excel("学生基本信息.xlsx", sheet_name="全学员总表")
+    df = pd.read_excel("../原始数据/学生基本信息.xlsx", sheet_name="全学员总表")
 
     # 缺失值填充
     fill_rules = {
