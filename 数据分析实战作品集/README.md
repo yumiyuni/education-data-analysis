@@ -16,3 +16,4 @@ Python（Pandas、NumPy、Matplotlib）、Streamlit、Excel、SQL
 - 原始数据：业务源Excel数据表
 - 代码文件：Jupyter分析代码、Streamlit交互式看板代码
 - 分析报告：完整业务分析报告（含图表、结论、优化建议）
+- 本项目包含 Power BI 交互式低代码可视化看板，配套 Streamlit、Tableau 两套分析方案
